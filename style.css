@@ -1,0 +1,75 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+    padding: 0 80px 0 80px;
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.caption{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0 5px 0;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.name{
+    font-style: italic;
+    font-size: 3.5rem;
+}
+
+#about-pope{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background: white;
+    padding: 15px;
+    margin: 15px 0 5px 0;
+    text-align: justify;
+    font-size: 16px;
+}
+.early-life, .papal-election, .papacy, .later-problem, .death{
+    font-style: italic;
+}
+a:hover{
+ font-style: italic;
+ font-weight: 500;
+ color: rgb(0, 0, 255);
+}
+
+#facts{
+    border-radius: 10px;
+    background: white;
+    font-size: 16px;
+}
+
+.quick-facts, .interesting-facts{
+    font-style: italic;
+    text-align: left;
+}
+
+ul{
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+li{
+    margin: 16px 0;
+}
